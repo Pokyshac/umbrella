@@ -1,3 +1,3 @@
 # Umbrella
 
-Weather forecast app with egui gui
+Weather forecast app with iced gui
