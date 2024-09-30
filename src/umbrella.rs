@@ -31,7 +31,7 @@ impl Umbrella {
         &self.window
     }
 
-    pub fn add_widget<T: WidgetBase>(&mut self, widget: T) {
+    pub fn add_widget<T: WidgetBase + WidgetExt>(&mut self, widget: T) {
         self.window.begin();
 
         self.window.add(&widget);
