@@ -1,3 +1,3 @@
 # Umbrella
 
-Weather forecast app with slint gui
+Weather forecast app with fltk gui
